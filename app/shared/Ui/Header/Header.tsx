@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import style from "@/app/shared/Ui/Header.module.scss"
+import style from "@/app/shared/Ui/Header/Header.module.scss"
 
 
 const Header = () => {

@@ -1,0 +1,66 @@
+.main {
+}
+
+.getConsultWrapper {
+  margin-left: 80px;
+  margin-top: 112px;
+
+  .getConsultTitle {
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 300;
+    max-width: 736px;
+  }
+
+  .getConsultText {
+    margin-top: 32px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 24px;
+    max-width: 738px;
+  }
+
+  .getConsultButton {
+    margin-top: 93px;
+    border: 1px solid #e31d77;
+    background-color: #e31d77;
+    color: #fff;
+    padding: 21px 55px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .getConsultButton:hover {
+    margin-top: 93px;
+    border: 1px solid #232323;
+    background-color: #232323;
+    color: #fff;
+    padding: 21px 55px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+}
+
+.advantagesWrapper {
+  margin-top: 112px;
+  height: 634px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../../public/bannerFirst.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .advantagesText {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 48px;
+  }
+}
+
