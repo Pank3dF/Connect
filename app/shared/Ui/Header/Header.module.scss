@@ -40,4 +40,30 @@
         background-color: #fff;
         color: #232323;
     }
+    .navListSocialMediaItemWApp:hover svg g path  {
+        fill: #920042;
+    }
+
+    .navListSocialMediaItemTg svg {
+        --start-color: #333333; 
+        --end-color: #333333;   
+        transition: all 0.3s ease; 
+    }
+    
+    .navListSocialMediaItemTg:hover svg {
+        --start-color:  #920042; 
+        --end-color:  #920042;   
+    }
+
+    .navListSocialMediaItemVK svg {
+        --vk-fill-color: #333333; /* Цвет по умолчанию */
+        transition: all 0.3s ease; /* Плавный переход */
+    }
+    
+    .navListSocialMediaItemVK:hover svg {
+        --vk-fill-color: #920042; /* Цвет при наведении */
+    }
+    
+    
+
 }
