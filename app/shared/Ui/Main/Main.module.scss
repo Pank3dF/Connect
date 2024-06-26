@@ -128,14 +128,71 @@
     border: none;
     cursor: pointer;
     --svg-stroke-color: #e31d77;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
   }
 
   .buttonForDiscount:hover {
-    --svg-stroke-color: #920042; 
+    --svg-stroke-color: #920042;
   }
 
   .buttonForDiscount svg path {
     stroke: var(--svg-stroke-color, #e31d77);
+  }
+}
+
+.servicesWrapper {
+  margin-top: 112px;
+  margin-left: 80px;
+  .servicesTitle {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+    margin-bottom: 48px;
+  }
+  .bannerWithCards {
+    display: flex;
+    flex-direction: row;
+    gap: 93px;
+  }
+  .ServicesCardWrapperOnPage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .ServicesCardWrapper {
+    padding-left: 56px;
+    padding-top: 24px;
+    padding-bottom: 56px;
+    border-radius: 50px;
+    width: 630px;
+    max-height: 164px;
+    background-color: #fff;
+    .pStyle {
+      color: #000;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 29px;
+      max-width: 466px;
+      position: relative;
+      bottom: 30px;
+    }
+    .svgWrapper {
+      display: flex;
+      justify-content: end;
+      padding-right: 24px;
+      .svgArrow {
+        transition: fill 0.3s ease; 
+        cursor: pointer;
+      }
+
+      .svgArrow circle {
+        transition: fill 0.3s ease; 
+      }
+
+      .svgArrow:hover circle {
+        fill: #920042; 
+      }
+    }
   }
 }
