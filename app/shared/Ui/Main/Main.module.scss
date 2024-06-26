@@ -1,6 +1,3 @@
-.main {
-}
-
 .getConsultWrapper {
   margin-left: 80px;
   margin-top: 112px;
@@ -182,17 +179,147 @@
       justify-content: end;
       padding-right: 24px;
       .svgArrow {
-        transition: fill 0.3s ease; 
+        transition: fill 0.3s ease;
         cursor: pointer;
       }
 
       .svgArrow circle {
-        transition: fill 0.3s ease; 
+        transition: fill 0.3s ease;
       }
 
       .svgArrow:hover circle {
-        fill: #920042; 
+        fill: #920042;
       }
+    }
+  }
+}
+
+.stocksWrapper {
+  margin-top: 112px;
+  margin-left: 80px;
+
+   .bannersWithStocksThird {
+    display: flex;
+    padding-left: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #fff;
+    border-radius: 50px;
+    max-height: 230px;
+    max-width: 1280px;
+
+    .Table{
+        position: relative;
+        bottom: 393px;
+        right: 400px;
+    }
+    
+    .Knot{
+      position: relative;
+      bottom: 210px;
+      right: 80px;
+      
+    }
+
+    .Helix{
+      position: relative;
+      right: 300px;
+      top: 11px;
+
+    }
+    
+  }
+
+  .giftBannerTitleThird {
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+  }
+  .giftBannerTextThird {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    width: 1168px;
+  }
+
+  .bannersWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .bannersWithStocksSecond {
+    display: flex;
+    gap: 28px;
+    padding-left: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #333333;
+    border-radius: 50px;
+    max-height: 230px;
+    max-width: 1280px;
+    .socialLinks{
+      display: flex;
+      gap:24px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .giftBannerTitleSecond {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 56px;
+  }
+  .giftBannerTextSecond {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    max-width: 791px;
+  }
+
+  .stocksTitle {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+    margin-bottom: 48px;
+  }
+
+  .giftBanner {
+    padding-left: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #e31d77;
+    border-radius: 50px;
+    max-height: 230px;
+    max-width: 1280px;
+
+    .giftBannerTitle {
+      margin-bottom: 16px;
+      color: #fff;
+      font-size: 48px;
+      font-weight: 300;
+      line-height: 56px;
+    }
+
+    .giftBannerText {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #fff;
+      max-width: 791px;
+    }
+
+    .giftBannerImage {
+      position: relative;
+      left: 714px;
+      bottom: 176px;
     }
   }
 }
