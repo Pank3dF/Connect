@@ -45,7 +45,7 @@ const Header = () => {
                     <li>
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_725_31229)">
-                                <mask id="mask0_725_31229"  maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+                                <mask id="mask0_725_31229" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
                                     <path d="M31.8394 0H0.15625V31.6832H31.8394V0Z" fill="white" />
                                 </mask>
                                 <g mask="url(#mask0_725_31229)">
@@ -62,7 +62,7 @@ const Header = () => {
                     </li>
                 </ul>
                 <button className={style.buttonCall}>
-                Позвонить
+                    Позвонить
                 </button>
             </nav>
 

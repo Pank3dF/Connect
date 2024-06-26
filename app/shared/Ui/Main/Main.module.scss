@@ -55,6 +55,17 @@
   position: relative;
 
   .advantagesText {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 48px;
+  }
+  .h2TextAdvantages{
     font-size: 40px;
     font-weight: 300;
     line-height: 47px;
@@ -64,3 +75,34 @@
   }
 }
 
+.cardAdvantagesWrapper{
+  background-color: #fff;
+  max-width: 413px;
+  max-height: 348px;
+  padding: 56px;
+  margin-top: 48px;
+  border-radius: 50px;
+  .h3Style{
+    color: #e31d77;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+  .p1Style{
+    
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  .p2Style{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 40px;
+  }
+
+}
