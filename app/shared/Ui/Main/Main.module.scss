@@ -39,6 +39,7 @@
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
+    transition: 0.3s ease;
   }
 }
 
@@ -130,6 +131,7 @@
 
   .buttonForDiscount:hover {
     --svg-stroke-color: #920042;
+    transition:  --svg-stroke-color 0.3 ease;
   }
 
   .buttonForDiscount svg path {
@@ -322,4 +324,20 @@
       bottom: 176px;
     }
   }
+}
+
+.contacts {
+  margin-left: 80px;
+  margin-top: 112px;
+  h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+  }
+}
+
+.footerDesktop{
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
 }

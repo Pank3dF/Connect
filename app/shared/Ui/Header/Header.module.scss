@@ -39,9 +39,11 @@
     .buttonCall:hover{
         background-color: #fff;
         color: #232323;
+        transition: all 0.3s ease;
     }
     .navListSocialMediaItemWApp:hover svg g path  {
         fill: #920042;
+        transition: all 0.3s ease;
     }
 
     .navListSocialMediaItemTg svg {

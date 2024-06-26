@@ -1,0 +1,117 @@
+.input {
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  width: 305px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formInputsUp {
+  display: flex;
+  gap:20px;
+}
+
+.formInputWithError {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dataSubmitDocument{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.buttonSubmitDocument{
+    border: none;
+    width: 630px;
+    max-height: 56px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #fff;
+    background-color: #232323;
+    border-radius:50px ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+   
+}
+
+.buttonSubmitDocument:hover{
+    border: 1px solid #232323;
+    background-color: #fff;
+    color: #232323;
+    transition: 0.3s  ease;
+}
+
+.dataSubmitDocumentLink{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-decoration: underline;
+}
+
+.formWrapper{
+    margin-top:48px;
+}
+.formTitle{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-bottom: 32px;
+    margin-top: 48px;
+}
+
+.borderRed {
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    width: 305px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #FF0000;
+}
+
+.comment {
+  display: flex;
+  width: 630px;
+  height: 120px;
+  border: none;
+  border-radius: 35px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 69px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error{
+  color: #FF0000;  
+  font-size: 16px;
+  line-height: 19px;
+}

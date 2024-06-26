@@ -1,0 +1,49 @@
+.footer {
+  margin-top: 95px;
+  margin-bottom: 112px;
+  h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .paragraph {
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .adressWrapper {
+    display: flex;
+    gap: 44px;
+  }
+
+  .phoneAndIcon {
+    margin-top: 44px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+  }
+  .iconPhone:hover > circle {
+    fill: #920042;
+    transition: fill 0.3s ease;
+  }
+  .listOfSocial {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 114px;
+  }
+  .liOfSocial{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .liOfSocial:hover{
+    color: #920042;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+}
